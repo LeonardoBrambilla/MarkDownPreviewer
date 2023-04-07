@@ -1,0 +1,101 @@
+.editor {
+  max-width: 600px;
+  margin: 1.125rem auto;
+}
+
+.toolbar {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  font-family:'Russo One';
+  font-size: 20px;
+  width: 99%;
+  padding: .5rem;
+  background-color: #4aa3a3;
+  border: 1px solid black;
+  box-shadow: 1px 1px 10px 2px black;
+}
+
+
+textarea {
+  width: 99%;
+  box-shadow: 1px 1px 10px 2px black;
+  padding: .5rem;
+  outline: none;
+}
+
+.textEditor {
+  resize: vertical;
+  border: 1px solid black;
+  overflow-y: scroll;
+}
+
+.preview {
+  max-width:  800px;
+  margin: 1.125rem auto;
+}
+
+.preview .toolbar {
+  width: 100%;
+}
+
+.text {
+  width: 98%;
+  min-height: 300px;
+  box-shadow: 1px 1px 10px 2px black;
+  padding: 1rem;
+}
+
+h1 {
+  border-bottom: 2px solid white;
+  padding: 1rem 0;
+  font-size: 36px;
+}
+
+h2 {
+  border-bottom: 1px solid white;
+  padding: 1rem 0;
+  font-size: 30px; 
+}
+
+h3 {
+  border-bottom: 1px solid white;
+  padding: 1rem 0;
+  font-size: 24px; 
+}
+
+pre {
+  margin: 2rem auto;
+  background-color: #2b2b2b;
+  border-radius: 2px;
+  
+}
+
+ table {
+  margin: 2rem auto;
+}
+
+table, th, td {
+  padding: 6px;
+  border-collapse: collapse;
+  border: 1px solid white
+}
+
+ul {
+  padding: 8px 40px;
+}
+
+li {
+  margin: 5px 0;
+}
+
+
+ol {
+  padding: 8px 20px;
+}
+
+img {
+  padding: 50px;
+  width:690px;
+  height:78px;
+}
